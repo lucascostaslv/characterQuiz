@@ -1,4 +1,4 @@
-import Quiz from "../models/Quiz.js"; 
+import Quiz from "../model/quiz.js";
 
 export default class QuizController { 
     constructor(view, quiz) { 

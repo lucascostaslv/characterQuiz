@@ -1,5 +1,5 @@
 export default class Quiz { 
-
+    
     constructor(questions, characters) { 
         this.questions = questions; 
         this.characters = characters; 
