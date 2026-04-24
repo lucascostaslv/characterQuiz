@@ -1,23 +1,23 @@
 export const characters = [
-    { name: "Mordecai", description: "Você é responsável, criativo e leal aos seus amigos. Às vezes pensa demais antes de agir, mas seu coração está sempre no lugar certo.", image: "images/mordecai.png" },
-    { name: "Rigby", description: "Você é impulsivo, engraçado e cheio de energia. Pode ser preguiçoso, mas quando algo te importa de verdade, você dá tudo de si.", image: "images/rigby.jpg" },
-    { name: "Benson", description: "Você é organizado, direto e não tem paciência para bobagem. Estressado sim, mas no fundo se preocupa com todos ao redor.", image: "images/benson.jpg" },
-    { name: "Pops", description: "Você é gentil, otimista e vê o mundo com olhos de criança. Espalha alegria por onde passa e acredita no bem em todas as pessoas.", image: "images/pops.jpeg" },
-    { name: "Skips", description: "Você é sábio, calmo e confiável. As pessoas recorrem a você nos momentos difíceis porque sabem que você sempre tem a solução.", image: "images/skips.jpeg" },
-    { name: "Muscle Man", description: "Você é barulhento, orgulhoso e intenso. Sua lealdade aos amigos é inabalável e você vive a vida sem filtro nenhum.", image: "images/muscleman.jpg" }
+    { name: "Mordecai", description: "Você é responsável, um bom amigo e mulheres te deixam confuso.", image: "images/mordecai.png" },
+    { name: "Rigby", description: "Impulsivo, pouco pensante, e terrível em jogos. Mas quando um amigo precisa, sempre se presta a ajudar além de ser um bom marido.", image: "images/rigby.jpg" },
+    { name: "Benson", description: "Você é muito rigoroso, tenta manter controle da situação de um modo agressivo, mas sempre pensando no bem estar dos companheiros.", image: "images/benson.jpg" },
+    { name: "Pops", description: "Você é gentil, otimista e vê o mundo com muita leveza. E usa pirulitos como dinheiro.", image: "images/pops.jpeg" },
+    { name: "Skips", description: "Você é sábio, já viveu muito e é experiente. Nunca revela suas principais capacidade. sempre sabe o que fazer.", image: "images/skips.jpeg" },
+    { name: "Muscle Man", description: "Você é maluco. Mas é um excelente amigo, faz de tudo para provar seu ponto.", image: "images/muscleman.jpg" }
 ];
 
 export const questions = [
     {
-        text: "É sexta à noite e você tem o dia livre amanhã. O que você faz?",
+        text: "É sexta a noite e você tem o dia livre amanhã. O que você faz?",
         options: [
-            { text: "Jogar videogame com o seu melhor amigo", points: [3, 3, 1, 2, 1, 2] },
+            { text: "Tentar destruir o universo por um queijo quente", points: [3, 3, 1, 2, 1, 2] },
             { text: "Descansar e seguir a rotina normal", points: [1, 1, 3, 2, 3, 1] },
             { text: "Organizar alguma atividade para o grupo todo", points: [2, 1, 2, 3, 2, 3] }
         ]
     },
     {
-        text: "Seu chefe pede para você fazer uma tarefa chata e repetitiva. Como você reage?",
+        text: "Alguém designa você a fazer uma tarefa insuportável. Como você reage?",
         options: [
             { text: "Reclama um pouco, mas acaba fazendo", points: [3, 2, 1, 2, 2, 2] },
             { text: "Tenta escapar e empurra para o amigo", points: [1, 3, 1, 1, 1, 2] },
@@ -25,7 +25,7 @@ export const questions = [
         ]
     },
     {
-        text: "Uma situação estranha e sobrenatural acontece no trabalho. Qual é a sua reação?",
+        text: "Um olho gigante aparece em um torneio de não piscar. Qual sua reação?",
         options: [
             { text: "Fica animado e quer investigar", points: [3, 3, 1, 3, 2, 2] },
             { text: "Entra em pânico e grita com todos", points: [1, 2, 3, 1, 1, 3] },
@@ -43,8 +43,8 @@ export const questions = [
     {
         text: "Qual dessas atividades mais combina com você?",
         options: [
-            { text: "Assistir filmes e jogar videogame", points: [3, 3, 1, 2, 1, 1] },
-            { text: "Levantar peso e treinar", points: [1, 1, 2, 1, 3, 3] },
+            { text: "Se divertir por meio eletrônicos", points: [3, 3, 1, 2, 1, 1] },
+            { text: "Atividades físicas", points: [1, 1, 2, 1, 3, 3] },
             { text: "Passear, ouvir música e relaxar", points: [2, 2, 2, 3, 2, 2] }
         ]
     },
