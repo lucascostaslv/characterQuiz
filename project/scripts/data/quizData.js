@@ -1,10 +1,10 @@
 export const characters = [
     { name: "Mordecai", description: "Você é responsável, criativo e leal aos seus amigos. Às vezes pensa demais antes de agir, mas seu coração está sempre no lugar certo.", image: "images/mordecai.png" },
-    { name: "Rigby", description: "Você é impulsivo, engraçado e cheio de energia. Pode ser preguiçoso, mas quando algo te importa de verdade, você dá tudo de si.", image: "images/rigby.png" },
-    { name: "Benson", description: "Você é organizado, direto e não tem paciência para bobagem. Estressado sim, mas no fundo se preocupa com todos ao redor.", image: "images/benson.png" },
-    { name: "Pops", description: "Você é gentil, otimista e vê o mundo com olhos de criança. Espalha alegria por onde passa e acredita no bem em todas as pessoas.", image: "images/pops.png" },
-    { name: "Skips", description: "Você é sábio, calmo e confiável. As pessoas recorrem a você nos momentos difíceis porque sabem que você sempre tem a solução.", image: "images/skips.png" },
-    { name: "Muscle Man", description: "Você é barulhento, orgulhoso e intenso. Sua lealdade aos amigos é inabalável e você vive a vida sem filtro nenhum.", image: "images/muscleman.png" }
+    { name: "Rigby", description: "Você é impulsivo, engraçado e cheio de energia. Pode ser preguiçoso, mas quando algo te importa de verdade, você dá tudo de si.", image: "images/rigby.jpg" },
+    { name: "Benson", description: "Você é organizado, direto e não tem paciência para bobagem. Estressado sim, mas no fundo se preocupa com todos ao redor.", image: "images/benson.jpg" },
+    { name: "Pops", description: "Você é gentil, otimista e vê o mundo com olhos de criança. Espalha alegria por onde passa e acredita no bem em todas as pessoas.", image: "images/pops.jpeg" },
+    { name: "Skips", description: "Você é sábio, calmo e confiável. As pessoas recorrem a você nos momentos difíceis porque sabem que você sempre tem a solução.", image: "images/skips.jpeg" },
+    { name: "Muscle Man", description: "Você é barulhento, orgulhoso e intenso. Sua lealdade aos amigos é inabalável e você vive a vida sem filtro nenhum.", image: "images/muscleman.jpg" }
 ];
 
 export const questions = [

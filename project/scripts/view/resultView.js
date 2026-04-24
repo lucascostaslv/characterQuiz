@@ -6,7 +6,7 @@ export default class ResultView {
             <h1>Seu resultado foi:</h1>
             <h2>${result.name}</h2>
             <p>${result.description}</p>
-            <img src="${result.image}" alt="${result.name}" width="200">
+            <img src="${result.image}" width="200">
             <br><br>
             <button id="restart-btn">Jogar Novamente</button>
         `;
